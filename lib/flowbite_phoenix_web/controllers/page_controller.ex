@@ -6,4 +6,8 @@ defmodule FlowbitePhoenixWeb.PageController do
     # so skip the default app layout.
     render(conn, :home, layout: false)
   end
+
+  def hero(conn, _params) do
+    render(conn, :hero)
+  end
 end
